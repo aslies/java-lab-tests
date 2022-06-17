@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="368.0" prefWidth="412.0" style="-fx-background-color: #99A097;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Test.IdrarTestiController">
+   <children>
+      <Label alignment="CENTER" layoutX="68.0" layoutY="14.0" prefHeight="17.0" prefWidth="276.0" text="İdrar Tetkiki">
+         <font>
+            <Font name="Century" size="14.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutY="47.0" prefHeight="20.0" prefWidth="172.0" style="-fx-background-color: #B9C0B7;" text="Test" />
+      <Label alignment="CENTER" layoutX="172.0" layoutY="47.0" prefHeight="20.0" prefWidth="114.0" style="-fx-background-color: #B9C0B7;" text="Sonuç" />
+      <Label alignment="CENTER" layoutX="286.0" layoutY="47.0" prefHeight="20.0" prefWidth="126.0" style="-fx-background-color: #B9C0B7;" text="Referans Aralığı" />
+      <Label layoutY="67.0" prefHeight="20.0" prefWidth="172.0" style="-fx-background-color: WHITE;" text="Dansite" />
+      <Label layoutY="87.0" prefHeight="20.0" prefWidth="172.0" style="-fx-background-color: WHITE;" text="pH" />
+      <Label layoutY="107.0" prefHeight="20.0" prefWidth="172.0" style="-fx-background-color: WHITE;" text="Bilirubin" />
+      <Label layoutY="127.0" prefHeight="20.0" prefWidth="172.0" style="-fx-background-color: WHITE;" text="Eritrosit" />
+      <Label layoutY="247.0" prefHeight="20.0" prefWidth="172.0" style="-fx-background-color: WHITE;" text="Berraklık" />
+      <Label layoutY="147.0" prefHeight="20.0" prefWidth="172.0" style="-fx-background-color: WHITE;" text="Renk" />
+      <Label layoutY="187.0" prefHeight="20.0" prefWidth="172.0" style="-fx-background-color: WHITE;" text="Glukoz" />
+      <Label layoutY="207.0" prefHeight="20.0" prefWidth="172.0" style="-fx-background-color: WHITE;" text="Keton" />
+      <Label layoutY="227.0" prefHeight="20.0" prefWidth="172.0" style="-fx-background-color: WHITE;" text="Lökosit Esteraz" />
+      <Label layoutY="167.0" prefHeight="20.0" prefWidth="172.0" style="-fx-background-color: WHITE;" text="Nitrit" />
+      <Label layoutY="267.0" prefHeight="20.0" prefWidth="172.0" style="-fx-background-color: WHITE;" text="Protein" />
+      <Label layoutY="287.0" prefHeight="20.0" prefWidth="172.0" style="-fx-background-color: WHITE;" text="Ürobilinojen" />
+      <Label layoutY="307.0" prefHeight="20.0" prefWidth="172.0" style="-fx-background-color: WHITE;" text="Bakteri" />
+      <Label fx:id="Udata0" alignment="CENTER" layoutX="172.0" layoutY="67.0" prefHeight="20.0" prefWidth="114.0" style="-fx-background-color: WHITE;" text="-" />
+      <Label fx:id="Udata1" alignment="CENTER" layoutX="172.0" layoutY="87.0" prefHeight="20.0" prefWidth="114.0" style="-fx-background-color: WHITE;" text="-" />
+      <Label fx:id="Udata2" alignment="CENTER" layoutX="172.0" layoutY="107.0" prefHeight="20.0" prefWidth="114.0" style="-fx-background-color: WHITE;" text="-" />
+      <Label fx:id="Udata3" alignment="CENTER" layoutX="172.0" layoutY="127.0" prefHeight="20.0" prefWidth="114.0" style="-fx-background-color: WHITE;" text="-" />
+      <Label fx:id="Udata4" alignment="CENTER" layoutX="172.0" layoutY="147.0" prefHeight="20.0" prefWidth="114.0" style="-fx-background-color: WHITE;" text="-" />
+      <Label fx:id="Udata5" alignment="CENTER" layoutX="172.0" layoutY="167.0" prefHeight="20.0" prefWidth="114.0" style="-fx-background-color: WHITE;" text="-" />
+      <Label fx:id="Udata6" alignment="CENTER" layoutX="172.0" layoutY="187.0" prefHeight="20.0" prefWidth="114.0" style="-fx-background-color: WHITE;" text="-" />
+      <Label fx:id="Udata7" alignment="CENTER" layoutX="172.0" layoutY="207.0" prefHeight="20.0" prefWidth="114.0" style="-fx-background-color: WHITE;" text="-" />
+      <Label fx:id="Udata8" alignment="CENTER" layoutX="172.0" layoutY="227.0" prefHeight="20.0" prefWidth="114.0" style="-fx-background-color: WHITE;" text="-" />
+      <Label fx:id="Udata9" alignment="CENTER" layoutX="172.0" layoutY="247.0" prefHeight="20.0" prefWidth="114.0" style="-fx-background-color: WHITE;" text="-" />
+      <Label fx:id="Udata10" alignment="CENTER" layoutX="172.0" layoutY="267.0" prefHeight="20.0" prefWidth="114.0" style="-fx-background-color: WHITE;" text="-" />
+      <Label fx:id="Udata11" alignment="CENTER" layoutX="172.0" layoutY="287.0" prefHeight="20.0" prefWidth="114.0" style="-fx-background-color: WHITE;" text="-" />
+      <Label fx:id="Udata12" alignment="CENTER" layoutX="172.0" layoutY="307.0" prefHeight="20.0" prefWidth="114.0" style="-fx-background-color: WHITE;" text="-" />
+      <Label alignment="CENTER" layoutX="286.0" layoutY="67.0" prefHeight="20.0" prefWidth="126.0" style="-fx-background-color: WHITE;" text="1.005 - 1.025" />
+      <Label alignment="CENTER" layoutX="286.0" layoutY="87.0" prefHeight="20.0" prefWidth="126.0" style="-fx-background-color: WHITE;" text="4.5 - 8" />
+      <Label alignment="CENTER" layoutX="286.0" layoutY="107.0" prefHeight="20.0" prefWidth="126.0" style="-fx-background-color: WHITE;" text="Negatif" />
+      <Label alignment="CENTER" layoutX="286.0" layoutY="127.0" prefHeight="20.0" prefWidth="126.0" style="-fx-background-color: WHITE;" text="Negatif" />
+      <Label alignment="CENTER" layoutX="286.0" layoutY="247.0" prefHeight="20.0" prefWidth="126.0" style="-fx-background-color: WHITE;" text="Berrak" />
+      <Label alignment="CENTER" layoutX="286.0" layoutY="147.0" prefHeight="20.0" prefWidth="126.0" style="-fx-background-color: WHITE;" text="Sarı" />
+      <Label alignment="CENTER" layoutX="286.0" layoutY="167.0" prefHeight="20.0" prefWidth="126.0" style="-fx-background-color: WHITE;" text="Negatif" />
+      <Label alignment="CENTER" layoutX="286.0" layoutY="207.0" prefHeight="20.0" prefWidth="126.0" style="-fx-background-color: WHITE;" text="Negatif" />
+      <Label alignment="CENTER" layoutX="286.0" layoutY="227.0" prefHeight="20.0" prefWidth="126.0" style="-fx-background-color: WHITE;" text="Negatif" />
+      <Label alignment="CENTER" layoutX="286.0" layoutY="187.0" prefHeight="20.0" prefWidth="126.0" style="-fx-background-color: WHITE;" text="Negatif" />
+      <Label alignment="CENTER" layoutX="286.0" layoutY="267.0" prefHeight="20.0" prefWidth="126.0" style="-fx-background-color: WHITE;" text="Negatif" />
+      <Label alignment="CENTER" layoutX="286.0" layoutY="287.0" prefHeight="20.0" prefWidth="126.0" style="-fx-background-color: WHITE;" text="Negatif" />
+      <Label alignment="CENTER" layoutX="286.0" layoutY="307.0" prefHeight="20.0" prefWidth="126.0" style="-fx-background-color: WHITE;" text="Negatif" />
+      <Button fx:id="button" mnemonicParsing="false" onAction="#buttonClicked" prefHeight="25.0" prefWidth="44.0" text="&lt;--" />
+      <Label fx:id="timeLabel" alignment="CENTER_RIGHT" layoutX="235.0" layoutY="346.0" prefHeight="17.0" prefWidth="172.0" />
+      <Label fx:id="dateLabel" alignment="CENTER_RIGHT" layoutX="179.0" layoutY="346.0" prefHeight="17.0" prefWidth="228.0">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

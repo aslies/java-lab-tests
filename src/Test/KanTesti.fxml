@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="527.0" prefWidth="503.0" style="-fx-background-color: #4CB9E8;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Test.KanTestiController">
+   <children>
+      <Label alignment="CENTER" layoutX="63.0" layoutY="4.0" prefHeight="17.0" prefWidth="378.0" style="-fx-background-color: #EAEDED;" text="Kırmızı Kan Hücresi Sayımı" textFill="#5b5656">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="63.0" layoutY="318.0" prefHeight="17.0" prefWidth="378.0" style="-fx-background-color: #EAEDED;" text="Trombosit Sayımı" textFill="#5b5656">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="63.0" layoutY="405.0" prefHeight="17.0" prefWidth="378.0" style="-fx-background-color: #EAEDED;" text="Beyaz Kan Hücrelerinin Değerlendirilmesi" textFill="#5b5656">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutY="35.0" prefHeight="33.0" prefWidth="304.0" style="-fx-background-color: #EAEDED;" text="Test" />
+      <Label alignment="CENTER" layoutX="303.0" layoutY="35.0" prefHeight="33.0" prefWidth="100.0" style="-fx-background-color: #EAEDED;" text="Sonuç" />
+      <Label alignment="CENTER" layoutX="403.0" layoutY="35.0" prefHeight="33.0" prefWidth="100.0" style="-fx-background-color: #EAEDED;" text="Referans Aralığı" wrapText="true" />
+      <Label alignment="CENTER" layoutY="68.0" prefHeight="33.0" prefWidth="304.0" style="-fx-background-color: WHITE;" text="MCV (Mean Corpuscular Volume) (fL)">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutY="101.0" prefHeight="33.0" prefWidth="304.0" style="-fx-background-color: WHITE;" text="MCH (Mean Corpuscular Hemoglobin) (pg)">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutY="134.0" prefHeight="33.0" prefWidth="304.0" style="-fx-background-color: WHITE;" text="MCHC (Mean Corpuscular Hemoglobin Concentration) (g/dL)">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutY="167.0" prefHeight="33.0" prefWidth="304.0" style="-fx-background-color: WHITE;" text="RDW (Red Cell Distribution Width) (%)">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutY="200.0" prefHeight="33.0" prefWidth="304.0" style="-fx-background-color: WHITE;" text="RBC (Red Blood Cell) (mcL)">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutY="233.0" prefHeight="33.0" prefWidth="304.0" style="-fx-background-color: WHITE;" text="HGB (Hemoglobin) (g/dL)">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutY="266.0" prefHeight="33.0" prefWidth="304.0" style="-fx-background-color: WHITE;" text="HCT (Hematokrit) (%)">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Label>
+      <Label fx:id="PBdata0" alignment="CENTER" layoutX="303.0" layoutY="68.0" prefHeight="33.0" prefWidth="100.0" style="-fx-background-color: WHITE;" text="-">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Label>
+      <Label fx:id="PBdata1" alignment="CENTER" layoutX="303.0" layoutY="101.0" prefHeight="33.0" prefWidth="100.0" style="-fx-background-color: WHITE;" text="-">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Label>
+      <Label fx:id="PBdata2" alignment="CENTER" layoutX="303.0" layoutY="134.0" prefHeight="33.0" prefWidth="100.0" style="-fx-background-color: WHITE;" text="-">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Label>
+      <Label fx:id="PBdata3" alignment="CENTER" layoutX="303.0" layoutY="167.0" prefHeight="33.0" prefWidth="100.0" style="-fx-background-color: WHITE;" text="-">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Label>
+      <Label fx:id="PBdata4" alignment="CENTER" layoutX="303.0" layoutY="200.0" prefHeight="33.0" prefWidth="100.0" style="-fx-background-color: WHITE;" text="-">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Label>
+      <Label fx:id="PBdata5" alignment="CENTER" layoutX="303.0" layoutY="233.0" prefHeight="33.0" prefWidth="100.0" style="-fx-background-color: WHITE;" text="-">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Label>
+      <Label fx:id="PBdata6" alignment="CENTER" layoutX="303.0" layoutY="266.0" prefHeight="33.0" prefWidth="100.0" style="-fx-background-color: WHITE;" text="-">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="403.0" layoutY="68.0" prefHeight="33.0" prefWidth="100.0" style="-fx-background-color: WHITE;" text="80 - 100">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="403.0" layoutY="101.0" prefHeight="33.0" prefWidth="100.0" style="-fx-background-color: WHITE;" text="27.5 - 33.2">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="403.0" layoutY="134.0" prefHeight="33.0" prefWidth="100.0" style="-fx-background-color: WHITE;" text="32 - 36">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="403.0" layoutY="167.0" prefHeight="33.0" prefWidth="100.0" style="-fx-background-color: WHITE;" text="E -&gt; 11.6 - 14.6       K -&gt; 11.9 - 15.5" wrapText="true">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="403.0" layoutY="200.0" prefHeight="33.0" prefWidth="100.0" style="-fx-background-color: WHITE;" text="E -&gt; 4.7 - 6.1 mil       K -&gt; 4.0 - 5.5 mil" wrapText="true">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="403.0" layoutY="233.0" prefHeight="33.0" prefWidth="100.0" style="-fx-background-color: WHITE;" text="E -&gt; 13.5 - 17.5       K -&gt; 12.5 - 15.5" wrapText="true">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="403.0" layoutY="266.0" prefHeight="33.0" prefWidth="100.0" style="-fx-background-color: WHITE;" text="E -&gt; 42 -54              K -&gt; 38 - 46" wrapText="true">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutY="354.0" prefHeight="33.0" prefWidth="304.0" style="-fx-background-color: WHITE;" text="MPV (Mean Platelet Volume) (fL)">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutY="446.0" prefHeight="33.0" prefWidth="304.0" style="-fx-background-color: WHITE;" text="WBC (White Blood Cell) (mm³)">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Label>
+      <Label fx:id="PBdata7" alignment="CENTER" layoutX="303.0" layoutY="354.0" prefHeight="33.0" prefWidth="100.0" style="-fx-background-color: WHITE;" text="-">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="403.0" layoutY="354.0" prefHeight="33.0" prefWidth="100.0" style="-fx-background-color: WHITE;" text="7.5 - 11.5">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Label>
+      <Label fx:id="PBdata8" alignment="CENTER" layoutX="303.0" layoutY="446.0" prefHeight="33.0" prefWidth="100.0" style="-fx-background-color: WHITE;" text="-">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="403.0" layoutY="446.0" prefHeight="33.0" prefWidth="100.0" style="-fx-background-color: WHITE;" text="4000-11000">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Label>
+      <Button fx:id="button" mnemonicParsing="false" onAction="#goBackBtnClicked" prefHeight="21.0" prefWidth="45.0" text="&lt;--" />
+      <Label fx:id="timeLabel" alignment="CENTER_RIGHT" layoutX="246.0" layoutY="505.0" prefHeight="17.0" prefWidth="251.0">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

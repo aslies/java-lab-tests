@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="323.0" style="-fx-background-color: #373A3D;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Test.HastaGirisController">
+   <children>
+      <Label layoutX="24.0" layoutY="170.0" prefHeight="61.0" prefWidth="101.0" text="T.C. Kimlik NO" textFill="WHITE">
+         <font>
+            <Font name="Yu Gothic Medium" size="14.0" />
+         </font></Label>
+      <Label layoutX="30.0" layoutY="231.0" prefHeight="17.0" prefWidth="64.0" text="Şifre" textFill="WHITE">
+         <font>
+            <Font name="Yu Gothic Medium" size="14.0" />
+         </font></Label>
+      <TextField fx:id="tcNoField" layoutX="135.0" layoutY="188.0" />
+      <PasswordField fx:id="passwordField1" layoutX="135.0" layoutY="227.0" />
+      <Button layoutX="210.0" layoutY="275.0" mnemonicParsing="false" onAction="#login" style="-fx-background-color: #9A9C9F; -fx-font-family: Helvetica; -fx-font-size: 14;" text="Giriş yap" textFill="WHITE">
+         <font>
+            <Font name="Yu Gothic Medium" size="13.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="goBackBtn" layoutX="57.0" layoutY="275.0" mnemonicParsing="false" onAction="#goBackBtnClicked" prefHeight="30.0" prefWidth="149.0" style="-fx-background-color: #9A9C9F; -fx-font-family: Helvetica; -fx-font-size: 14;" text="Önceki sayfaya dön" textAlignment="JUSTIFY" textFill="WHITE">
+         <font>
+            <Font name="Yu Gothic Medium" size="13.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="62.0" layoutY="28.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../Downloads/logo-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="label1" alignment="CENTER" contentDisplay="CENTER" layoutX="24.0" layoutY="325.0" prefHeight="17.0" prefWidth="276.0" style="-fx-background-color: #373A3D;" textFill="RED">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="label2" alignment="CENTER" contentDisplay="CENTER" layoutX="24.0" layoutY="355.0" prefHeight="17.0" prefWidth="276.0" textFill="RED">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>
